@@ -29,7 +29,7 @@ function App() {
 				</section>
 			)}
 			{shouldShowPreview && (
-				<section>
+				<section style={{ padding: '4px' }}>
 					<MarkdownPreview source={text} />
 					<button
 						style={buttonStyle}
@@ -55,7 +55,7 @@ function Form({ setText, setShouldShowPreview }) {
 		alignItems: 'center',
 		justifyContent: 'center', // Center horizontally
 		paddingTop: '10px',
-		backgroundColor: '#333', // Dark mode background color
+		backgroundColor: 'rgb(13, 17, 23)', // Dark mode background color
 		color: 'white', // Dark mode text color
 	};
 
